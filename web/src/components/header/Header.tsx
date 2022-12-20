@@ -4,7 +4,7 @@ import { ToggleButton } from "../utils/ToggleButton";
 export function Header() {
   return (
     <div className={`bg-header dark:bg-zinc-800`}>
-      <div className="py-6 max-w-5xl mx-auto flex justify-between items-center font-comic text-white">
+      <div className="py-6 max-w-5xl mx-auto flex justify-between items-center text-white">
         <div>
           <h2 className="text-4xl">LOGO</h2>
         </div>
@@ -29,7 +29,7 @@ export function Header() {
         </div>
 
         <div>
-          <Button text="Contribua" />
+          <Button text="Contribua" link="#" />
         </div>
         <div>
           <ToggleButton />
