@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: "#6BCAD3",
         secondary: "#27272a",
+        "primary-text": "#131D1F",
       },
       fontFamily: {
         comic: ["Comic Neue", "cursive"],

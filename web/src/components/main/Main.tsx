@@ -5,9 +5,9 @@ import wave from "/wave.svg";
 export function Main() {
   return (
     <div className="bg-header dark:bg-zinc-800 relative">
-      <div className="py-6 max-w-5xl mx-auto flex items-center flex-col gap-10 text-white">
+      <div className="py-6 max-w-5xl mx-auto flex items-center flex-col gap-10 text-primary-text dark:text-white">
         <h1 className="font-bold text-6xl text-center">Lorem Ipsum</h1>
-        <p className="max-w-2xl text-2xl">
+        <p className="max-w-2xl text-2xl font-semibold">
           Are you okay? Biff. Welcome to my latest experiment. It's the one I've
           been waiting for all my life. Hey boy, are you alright? Keys?
         </p>
