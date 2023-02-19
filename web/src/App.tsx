@@ -4,14 +4,14 @@ import { Header } from "./components/header/Header";
 import { Home } from "./pages/Home";
 import { Stories } from "./pages/Stories";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
 
 import "./styles/main.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ThemeProvider attribute="class">
         <div className="mx-auto font-comic">
           <Header />
@@ -22,7 +22,7 @@ function App() {
           <Footer />
         </div>
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
