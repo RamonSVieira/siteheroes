@@ -6,7 +6,7 @@ export function Header() {
     <div className={`bg-header dark:bg-zinc-800`}>
       <div className="py-6 px-6 max-w-5xl mx-auto flex justify-between items-center text-primary-text dark:text-white">
         <div>
-          <a href="">
+          <a href="/">
             <svg
               className="fill-primary-text dark:fill-white"
               width="80"

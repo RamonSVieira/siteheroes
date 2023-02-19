@@ -11,7 +11,7 @@ export function Main() {
           Are you okay? Biff. Welcome to my latest experiment. It's the one I've
           been waiting for all my life. Hey boy, are you alright? Keys?
         </p>
-        <Button text="Ler Histórias" link="#" />
+        <Button text="Ler Histórias" link="/stories" />
         <img src={heroeImg} alt="" />
 
         <div className="absolute w-full h-52 bottom-[-160px] -z-10">
