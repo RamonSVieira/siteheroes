@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/stories" element={<Stories />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </ThemeProvider>
     </HashRouter>

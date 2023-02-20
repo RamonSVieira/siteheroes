@@ -6,15 +6,17 @@ export function Main() {
   return (
     <div className="bg-header dark:bg-zinc-800 relative">
       <div className="py-6 px-6 max-w-5xl mx-auto flex items-center flex-col gap-10 text-primary-text dark:text-white">
-        <h1 className="font-bold text-6xl text-center">Lorem Ipsum</h1>
-        <p className="max-w-2xl text-2xl font-semibold">
+        <h1 className="font-bold text-4xl md:text-5xl text-center">
+          Lorem Ipsum
+        </h1>
+        <p className="max-w-2xl text-xl md:text-2xl font-semibold">
           Are you okay? Biff. Welcome to my latest experiment. It's the one I've
           been waiting for all my life. Hey boy, are you alright? Keys?
         </p>
         <Button text="Ler Histórias" link="/stories" />
         <img src={heroeImg} alt="" />
 
-        <div className="absolute w-full h-52 bottom-[-160px] -z-10">
+        <div className="absolute w-full h-52 bottom-[-200px] -z-10">
           <svg
             className="object-cover w-full"
             xmlns="http://www.w3.org/2000/svg"

@@ -72,7 +72,7 @@ export function Header() {
           <ToggleButton />
         </div>
 
-        <div className="w-32 lg:hidden">
+        <div className="w-32 lg:hidden flex justify-center">
           <ButtonMenu />
         </div>
       </div>
