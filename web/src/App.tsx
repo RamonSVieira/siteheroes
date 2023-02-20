@@ -15,11 +15,11 @@ function App() {
       <ThemeProvider attribute="class">
         <div className="mx-auto font-comic">
           <Header />
-          {/* <Routes>
+          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/stories" element={<Stories />} />
           </Routes>
-          <Footer /> */}
+          <Footer />
         </div>
       </ThemeProvider>
     </HashRouter>
