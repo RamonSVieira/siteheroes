@@ -8,7 +8,7 @@ export function Header() {
   return (
     <div className={`bg-header dark:bg-zinc-800`}>
       <div className="py-6 px-6 max-w-5xl mx-auto flex justify-between items-center text-primary-text dark:text-white">
-        <div className="order-2">
+        <div className="">
           <Link to="/">
             <svg
               className="fill-primary-text dark:fill-white w-24 h-24"
@@ -25,7 +25,7 @@ export function Header() {
           </Link>
         </div>
 
-        <div className="hidden">
+        <div className="hidden lg:block">
           <nav>
             <ul className="flex gap-9 text-2xl font-semibold">
               <li>
@@ -64,15 +64,15 @@ export function Header() {
           </nav>
         </div>
 
-        <div className="hidden">
+        <div className="hidden lg:block">
           <Button text="Contribua" link="#" />
         </div>
 
-        <div className="hidden order-1">
+        <div className="hidden lg:block">
           <ToggleButton />
         </div>
 
-        <div className="order-3 w-32">
+        <div className="w-32 lg:hidden">
           <ButtonMenu />
         </div>
       </div>
