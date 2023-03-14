@@ -3,8 +3,19 @@ import { Link } from "react-router-dom";
 import { Button } from "../utils/Button";
 import { ToggleButton } from "../utils/ToggleButton";
 import { ButtonMenu } from "./ButtonMenu";
+import { useState } from "react";
 
 export function Header() {
+  const [button, setButton] = useState(false);
+
+  const handleMenu = () => {
+    setButton(!button);
+    if (button) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+  };
   return (
     <div className={`bg-header dark:bg-zinc-800`}>
       <div className="py-6 px-6 max-w-5xl mx-auto flex justify-between items-center text-primary-text dark:text-white">
@@ -72,8 +83,53 @@ export function Header() {
           <ToggleButton />
         </div>
 
-        <div className="w-32 lg:hidden flex justify-center">
+        <div
+          className="w-32 lg:hidden flex justify-center"
+          onClick={handleMenu}
+        >
           <ButtonMenu />
+        </div>
+
+        <div
+          className={`fixed z-10  left-0 right-0 w-full h-0  transition-all duration-300 ease-linear flex flex-col items-center justify-center gap-16 bg-cyan-600 ${
+            button ? "h-full -top-0" : "-top-56"
+          }`}
+        >
+          <ul className="flex flex-col items-center gap-9 text-2xl font-semibold">
+            <li>
+              <Link
+                to="#"
+                className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Início
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#"
+                className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Histórias
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#"
+                className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Sobre
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#"
+                className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Personagens
+              </Link>
+            </li>
+          </ul>
+          <ToggleButton />
         </div>
       </div>
     </div>
