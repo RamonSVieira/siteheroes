@@ -1,0 +1,29 @@
+{
+    "translation":{
+        "item1": "Home",
+        "item2": "Historys",
+        "item3": "About",
+        "item4": "Persons",
+        "buttonContribute": "Contribute",
+
+
+        "tituloPrincipal": "Incredible Adventures!",
+        "textoMain": "Welcome to our universe of superheroes! Explore the pages of this website and immerse yourself in thrilling comic book adventures. You'll encounter iconic characters and a world filled with courageous heroes ready to protect humanity against evil.",
+
+        "buttonReadStories": "Read stories",
+
+        "titlePositives": "Benefits of reading",
+        "headerCardPosit1": "Reading",
+        "textCardPosit1": "Reading allows you to learn about a wide range of subjects, explore different cultures, gain valuable information, and expand general knowledge.",
+        "headerCardPosit2": "Vocabulary",
+        "textCardPosit2": "Regular reading helps improve vocabulary by expanding the repertoire of words and enabling more effective and expressive communication.",
+        "headerCardPosit3": "Cognition",
+        "textCardPosit3": "Reading requires the mind to process and comprehend words, phrases, and ideas, interpreting their meaning and making connections with prior knowledge. This stimulates brain activity and strengthens the neural networks associated with cognition.",
+        "headerCardPosit4": "Creativity",
+        "textCardPosit4": "Reading stories awakens the imagination, allowing readers to immerse themselves in fictional worlds and visualize settings and characters in a unique way.",
+        "headerCardPosit5": "Concentration and focus",
+        "textCardPosit5": "Reading requires focus and concentration, and regular practice can help strengthen the ability to concentrate and sustain attention on a task.",
+        "headerCardPosit6": "Memory",
+        "textCardPosit6": "Reading stimulates memory, as readers need to remember details of characters, plots, and events, thereby exercising the ability to recall information."
+    }
+}

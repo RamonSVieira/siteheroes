@@ -4,8 +4,13 @@ import { Button } from "../utils/Button";
 import { ToggleButton } from "../utils/ToggleButton";
 import { ButtonMenu } from "./ButtonMenu";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+
 
 export function Header() {
+  const {t}= useTranslation()
+
+  
   const [button, setButton] = useState(false);
 
   const handleMenu = () => {
@@ -44,7 +49,7 @@ export function Header() {
                   to="#"
                   className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
-                  Início
+                  {t("item1")}
                 </Link>
               </li>
               <li>
@@ -52,7 +57,7 @@ export function Header() {
                   to="#"
                   className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
-                  Histórias
+                  {t("item2")}
                 </Link>
               </li>
               <li>
@@ -60,7 +65,7 @@ export function Header() {
                   to="#"
                   className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
-                  Sobre
+                  {t("item3")}
                 </Link>
               </li>
               <li>
@@ -68,7 +73,7 @@ export function Header() {
                   to="#"
                   className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
-                  Personagens
+                  {t("item4")}
                 </Link>
               </li>
             </ul>
@@ -76,7 +81,7 @@ export function Header() {
         </div>
 
         <div className="hidden lg:block">
-          <Button text="Contribua" link="#" />
+          <Button text={t("buttonContribute")} link="#" />
         </div>
 
         <div className="hidden lg:block">

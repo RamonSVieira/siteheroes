@@ -1,19 +1,20 @@
 import { Button } from "../utils/Button";
 
 import heroeImg from "../../assets/heroes-img.png";
+import { useTranslation } from "react-i18next";
 
 export function Main() {
+  const {t} = useTranslation()
   return (
     <div className="bg-header dark:bg-zinc-800 relative">
       <div className="py-6 px-6 max-w-5xl mx-auto flex items-center flex-col gap-10 text-primary-text dark:text-white">
-        <h1 className="font-bold text-4xl md:text-5xl text-center">
-          Lorem Ipsum
+        <h1 className="font-black text-4xl md:text-5xl text-center">
+          {t("tituloPrincipal")}
         </h1>
-        <p className="max-w-2xl text-xl md:text-2xl font-semibold">
-          Are you okay? Biff. Welcome to my latest experiment. It's the one I've
-          been waiting for all my life. Hey boy, are you alright? Keys?
+        <p className="max-w-3xl text-xl md:text-2xl font-semibold">
+          {t("textoMain")}
         </p>
-        <Button text="Ler Histórias" link="/stories" />
+        <Button text={t("buttonReadStories")} link="/stories" />
         <img src={heroeImg} alt="" />
 
         <div className="absolute w-full h-52 bottom-[-200px] -z-10">

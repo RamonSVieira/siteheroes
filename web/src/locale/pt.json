@@ -1,0 +1,28 @@
+{
+    "translation":{
+        "item1": "Início",
+        "item2": "Histórias",
+        "item3": "Sobre",
+        "item4": "Personagens",
+        "buttonContribute": "Contribua",
+
+        "tituloPrincipal": "Aventuras Incríveis!",
+        "textoMain": "Bem-vindo ao nosso universo de super-heróis! Explore as páginas deste site e mergulhe em emocionantes aventuras em quadrinhos. Você encontrará personagens icônicos e um mundo repleto de heróis corajosos prontos para proteger a humanidade contra o mal.",
+
+        "buttonReadStories": "Ler Histórias",
+
+        "titlePositives": "Benefícios da leitura",
+        "headerCardPosit1": "Leitura",
+        "textCardPosit1": "A leitura permite aprender sobre uma ampla variedade de assuntos, explorar diferentes culturas, adquirir informações valiosas e expandir o conhecimento geral.",
+        "headerCardPosit2": "Vocabulário",
+        "textCardPosit2": "A leitura regular ajuda a melhorar o vocabulário, aumentando o repertório de palavras e permitindo uma comunicação mais eficaz e expressiva.",
+        "headerCardPosit3": "Cognição",
+        "textCardPosit3": "A leitura exige que a mente processe e compreenda palavras, frases e ideias, interpretando o significado e fazendo conexões com o conhecimento prévio. Isso estimula a atividade cerebral e fortalece as redes neurais associadas à cognição.",
+        "headerCardPosit4": "Criatividade",
+        "textCardPosit4": "A leitura de histórias desperta a imaginação, permitindo que os leitores mergulhem em mundos fictícios e visualizem cenários e personagens de maneira única.",
+        "headerCardPosit5": "Concentração e foco",
+        "textCardPosit5": "A leitura exige foco e concentração, essa prática regular pode ajudar a fortalecer a habilidade de concentração e o poder de permanência em uma tarefa.",
+        "headerCardPosit6": "Memória",
+        "textCardPosit6": "A leitura estimula a memória, pois os leitores precisam lembrar de detalhes de personagens, enredos e eventos, exercitando assim a capacidade de recordar informações."
+    }
+}
