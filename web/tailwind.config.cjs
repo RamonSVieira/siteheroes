@@ -17,8 +17,8 @@ module.exports = {
       },
       backgroundImage: {
         wave: "url('./wave.svg')",
-        stark: "url('./stark.png')",
-        cap: "url('./cap.png')",
+        stark: "url('/stark.png')",
+        cap: "url('/cap.png')",
       },
     },
   },
