@@ -29,6 +29,20 @@
         "phone": "Telefone",
         "email": "Email",
         "ourDiscord": "Nossa comunidade no Discord",
-        "socialMedia": "Rede social"
+        "socialMedia": "Rede social",
+
+        "hero": "Herói",
+        "villain": "Vilão",
+        "avenger": "Vingadores",
+        "psi": "Psicótico",
+
+        "spiderMan": "Homem Aranha",
+        "textSpiderMan": "O amigão da vizinhança",
+        "ironMan": "Homem de ferro",
+        "textIronMan": "O invevitável",
+        "joker": "Coringa",
+        "textJoker": "A piada mortal",
+
+        "mostFamous": "Mais famosas"
     }
 }

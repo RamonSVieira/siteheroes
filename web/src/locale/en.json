@@ -30,6 +30,20 @@
         "phone": "Phone",
         "email": "Email",
         "ourDiscord": "Our community on Discord",
-        "socialMedia": "Social media"
+        "socialMedia": "Social media",
+        "hero": "Hero",
+        "villain": "Villain",
+        "avenger": "Avengers",
+        "psi": "Psychotic",
+
+        "spiderMan": "Spider Man",
+        "textSpiderMan": "The friendly neighborhood",
+        "ironMan": "Iron Man",
+        "textIronMan": "The inevitable",
+        "joker": "Joker",
+        "textJoker": "the killing joke",
+
+        "mostFamous": "Most Famous"
+
     }
 }

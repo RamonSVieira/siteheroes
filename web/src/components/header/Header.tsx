@@ -42,7 +42,7 @@ export function Header() {
           </Link>
         </div>
 
-        <div className="fixed z-50 top-0 right-0">
+        <div className="fixed z-50 bottom-0 right-0">
           <ChangeLanguage></ChangeLanguage>
         </div>
 
