@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 export function Footer() {
+  const {t} = useTranslation()
+
   return (
     <div className="bg-header dark:bg-zinc-800">
-      <div className="py-10 px-6 max-w-5xl mx-auto flex flex-col lg:flex-row gap-10 justify-between items-start text-primary-text dark:text-white">
+      <div className="py-10 px-6 max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-primary-text dark:text-white">
         <div className="basis-1/3 flex flex-col gap-5">
           <a href="">
             <svg
@@ -20,26 +24,25 @@ export function Footer() {
             </svg>
           </a>
           <p>
-            “São necessários anos de leitura atenta e inteligente para se
-            apreciar a prosa e a poesia que fizeram a glória das nossas
-            civilizações. A cultura não se improvisa.”
+            "{t("footerText")}"
           </p>
           <p>Julien Green</p>
         </div>
+
         <div className="basis-1/3 flex flex-col gap-5">
-          <h3 className="text-3xl font-extrabold">Contato</h3>
+          <h3 className="text-3xl font-extrabold md:h-20">{t("contact")}</h3>
           <ul className="flex flex-col gap-3">
-            <li>Telefone: 4002-8922</li>
-            <li>Email: contato@gmail.com</li>
+            <li>{t("phone")}: 4002-8922</li>
+            <li>{t("email")}: contato@gmail.com</li>
             <li>
-              <a href="https://discord.gg/NEntreAq">
-                Nossa comunidade no Discord
+              <a className="underline" href="https://discord.gg/NEntreAq">
+                {t("ourDiscord")}
               </a>
             </li>
           </ul>
         </div>
         <div className="basis-1/3 flex flex-col gap-5">
-          <h3 className="text-3xl font-extrabold">Redes sociais</h3>
+          <h3 className="text-3xl font-extrabold lg:h-20">{t("socialMedia")}</h3>
           <ul className="flex gap-4 fill-primary-text dark:fill-white">
             <li>
               <a href="http://" className="inline-block p-1" target="_blank">

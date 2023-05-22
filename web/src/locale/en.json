@@ -24,6 +24,12 @@
         "headerCardPosit5": "Concentration and focus",
         "textCardPosit5": "Reading requires focus and concentration, and regular practice can help strengthen the ability to concentrate and sustain attention on a task.",
         "headerCardPosit6": "Memory",
-        "textCardPosit6": "Reading stimulates memory, as readers need to remember details of characters, plots, and events, thereby exercising the ability to recall information."
+        "textCardPosit6": "Reading stimulates memory, as readers need to remember details of characters, plots, and events, thereby exercising the ability to recall information.",
+        "footerText": "It takes years of attentive and intelligent reading to appreciate the prose and poetry that have brought glory to our civilizations. Culture cannot be improvised.",
+        "contact": "Contact",
+        "phone": "Phone",
+        "email": "Email",
+        "ourDiscord": "Our community on Discord",
+        "socialMedia": "Social media"
     }
 }

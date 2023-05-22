@@ -5,6 +5,7 @@ import { ToggleButton } from "../utils/ToggleButton";
 import { ButtonMenu } from "./ButtonMenu";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { ChangeLanguage } from "../utils/ChangeLanguage";
 
 
 export function Header() {
@@ -39,6 +40,10 @@ export function Header() {
               />
             </svg>
           </Link>
+        </div>
+
+        <div className="fixed z-50 top-0 right-0">
+          <ChangeLanguage></ChangeLanguage>
         </div>
 
         <div className="hidden lg:block">

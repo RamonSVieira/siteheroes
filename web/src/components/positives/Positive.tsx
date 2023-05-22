@@ -15,10 +15,6 @@ export function Positive() {
         {t("titlePositives")}
       </h3>
 
-      <div className="fixed top-0 right-0">
-        <ChangeLanguage></ChangeLanguage>
-      </div>
-
       <div className="flex flex-col md:flex-row items-center md:items-stretch justify-around flex-wrap gap-6 m-auto">
         <Card
           urlImg={ilustration}
