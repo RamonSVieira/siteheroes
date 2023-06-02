@@ -7,7 +7,7 @@ import marvelLogo from "../../assets/marvel.png";
 import { useTranslation } from "react-i18next";
 
 export function StoriesFamous() {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <div className="relative">
@@ -25,7 +25,7 @@ export function StoriesFamous() {
       <div className="bg-[#9CD4DA] dark:bg-zinc-700">
         <div className="max-w-5xl mx-auto py-20 px-6">
           <div className="text-center font-extrabold text-4xl mb-12">
-            Histórias
+            {t("mostFamous")}
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             <CardPersons
