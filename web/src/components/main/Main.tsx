@@ -34,7 +34,8 @@ export function Main() {
           grabCursor={true}
           centeredSlides={true}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
-          loop={true}
+          //Corrigir bug do loop
+          loop={false}
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 0,
