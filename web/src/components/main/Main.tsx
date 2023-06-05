@@ -52,40 +52,40 @@ export function Main() {
           className="swiper_container"
         >
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
           <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" />
+            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
 
           <div className="slider-controler">
