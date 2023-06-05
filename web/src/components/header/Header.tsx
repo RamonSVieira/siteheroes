@@ -7,11 +7,9 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ChangeLanguage } from "../utils/ChangeLanguage";
 
-
 export function Header() {
-  const {t}= useTranslation()
+  const { t } = useTranslation();
 
-  
   const [button, setButton] = useState(false);
 
   const handleMenu = () => {
@@ -49,14 +47,6 @@ export function Header() {
         <div className="hidden lg:block">
           <nav>
             <ul className="flex gap-9 text-2xl font-semibold">
-              <li>
-                <Link
-                  to="#"
-                  className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
-                >
-                  {t("item1")}
-                </Link>
-              </li>
               <li>
                 <Link
                   to="#"

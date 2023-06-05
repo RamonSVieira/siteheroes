@@ -1,21 +1,103 @@
+import React from "react";
 import { Button } from "../utils/Button";
 
-import heroeImg from "../../assets/heroes-img.png";
+import homiranha from "../../assets/homiranha.png";
 import { useTranslation } from "react-i18next";
 
+import { EffectCoverflow, Navigation, Pagination, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronRight,
+  faChevronLeft,
+} from "@fortawesome/free-solid-svg-icons";
+
 export function Main() {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
   return (
     <div className="bg-header dark:bg-zinc-800 relative">
-      <div className="py-6 px-6 max-w-5xl mx-auto flex items-center flex-col gap-10 text-primary-text dark:text-white">
+      <div className="container py-6 px-6 max-w-5xl mx-auto flex items-center flex-col gap-10 text-primary-text dark:text-white">
         <h1 className="font-black text-4xl md:text-5xl text-center">
           {t("tituloPrincipal")}
         </h1>
-        <p className="max-w-3xl text-xl md:text-2xl font-semibold">
-          {t("textoMain")}
-        </p>
-        <Button text={t("buttonReadStories")} link="/stories" />
-        <img src={heroeImg} alt="" />
+
+        <Swiper
+          observeParents={true}
+          observer={true}
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
+          loop={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 200,
+            modifier: 2,
+          }}
+          pagination={{ el: ".swiper-pagination", clickable: true }}
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            enabled: true,
+          }}
+          modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
+          className="swiper_container"
+        >
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+          <SwiperSlide className="max-w-xs">
+            <img src={homiranha} alt="slide_image" />
+          </SwiperSlide>
+
+          <div className="slider-controler">
+            <div className="swiper-button-prev slider-arrow absolute left-0">
+              <FontAwesomeIcon icon={faChevronLeft} className="text-3xl" />
+            </div>
+            <div className="swiper-button-next slider-arrow absolute right-0">
+              <FontAwesomeIcon icon={faChevronRight} className="text-3xl" />
+            </div>
+            <div className="swiper-pagination"></div>
+          </div>
+        </Swiper>
 
         <div className="absolute w-full h-52 bottom-[-200px] -z-10">
           <svg
