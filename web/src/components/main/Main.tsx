@@ -1,6 +1,3 @@
-import React from "react";
-import { Button } from "../utils/Button";
-
 import homiranha from "../../assets/homiranha.png";
 import { useTranslation } from "react-i18next";
 
@@ -28,14 +25,13 @@ export function Main() {
         </h1>
 
         <Swiper
+          initialSlide={5}
+          loop={true}
           observeParents={true}
           observer={true}
           effect={"coverflow"}
           grabCursor={true}
-          centeredSlides={true}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
-          //Corrigir bug do loop
-          loop={false}
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 0,
@@ -50,11 +46,8 @@ export function Main() {
             enabled: true,
           }}
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-          className="swiper_container"
+          className="swiper_container mySwiper"
         >
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
-          </SwiperSlide>
           <SwiperSlide className="max-w-xs">
             <img src={homiranha} alt="slide_image" className="cursor-pointer" />
           </SwiperSlide>
@@ -90,10 +83,10 @@ export function Main() {
           </SwiperSlide>
 
           <div className="slider-controler">
-            <div className="swiper-button-prev slider-arrow absolute left-0">
+            <div className="swiper-button-prev slider-arrow absolute left-4">
               <FontAwesomeIcon icon={faChevronLeft} className="text-3xl" />
             </div>
-            <div className="swiper-button-next slider-arrow absolute right-0">
+            <div className="swiper-button-next slider-arrow absolute right-4">
               <FontAwesomeIcon icon={faChevronRight} className="text-3xl" />
             </div>
             <div className="swiper-pagination"></div>
