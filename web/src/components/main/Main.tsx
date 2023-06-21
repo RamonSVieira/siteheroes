@@ -1,4 +1,14 @@
 import homiranha from "../../assets/homiranha.png";
+import batman from "../../assets/batman.png";
+import black_panter from "../../assets/black-panter.png";
+import cap_ame from "../../assets/cap-ame.png";
+import deadpool from "../../assets/deadpool.png";
+import flash from "../../assets/flash.png";
+import green_arrow from "../../assets/green-arrow.png";
+import green_lantern from "../../assets/green-lantern.png";
+import iron_man from "../../assets/iron-man.png";
+import thor from "../../assets/Thor.png";
+import wonder_woman from "../../assets/wonder-woman.png";
 import { useTranslation } from "react-i18next";
 
 import { EffectCoverflow, Navigation, Pagination, Autoplay } from "swiper";
@@ -26,17 +36,17 @@ export function Main() {
 
         <Swiper
           initialSlide={5}
-          loop={true}
-          observeParents={true}
-          observer={true}
+          // loop={true}
+          centeredSlides={true}
+          centeredSlidesBounds={false}
           effect={"coverflow"}
           grabCursor={true}
-          autoplay={{ delay: 2000, disableOnInteraction: false }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
-            depth: 200,
+            depth: 250,
             modifier: 2,
           }}
           pagination={{ el: ".swiper-pagination", clickable: true }}
@@ -48,38 +58,82 @@ export function Main() {
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="swiper_container mySwiper"
         >
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={homiranha}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={batman}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={black_panter}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={cap_ame}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={deadpool}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={flash}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={green_arrow}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={green_lantern}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={iron_man}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={thor}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
-          <SwiperSlide className="max-w-xs">
-            <img src={homiranha} alt="slide_image" className="cursor-pointer" />
+          <SwiperSlide className="max-w-sm">
+            <img
+              src={wonder_woman}
+              alt="slide_image"
+              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+            />
           </SwiperSlide>
 
           <div className="slider-controler">
