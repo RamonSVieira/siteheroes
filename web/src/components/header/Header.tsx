@@ -26,7 +26,7 @@ export function Header() {
         <div className="">
           <Link to="/">
             <svg
-              className="fill-primary-text dark:fill-white w-24 h-24"
+              className="fill-logo dark:fill-white w-24 h-24"
               viewBox="0 0 80 80"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,17 +40,17 @@ export function Header() {
           </Link>
         </div>
 
-        <div className="fixed z-50 bottom-0 right-0">
+        {/* <div className="fixed z-50 bottom-0 right-0">
           <ChangeLanguage></ChangeLanguage>
-        </div>
+        </div> */}
 
         <div className="hidden lg:block">
           <nav>
-            <ul className="flex gap-9 text-2xl font-semibold">
+            <ul className="flex gap-9 text-3xl font-semibold font-badaboom tracking-wider">
               <li>
                 <Link
                   to="#"
-                  className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="text-theader1 drop-shadow-header relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader1 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item2")}
                 </Link>
@@ -58,7 +58,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="text-theader2 drop-shadow-header relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader2 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item3")}
                 </Link>
@@ -66,7 +66,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="text-theader3 drop-shadow-header relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader3 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item4")}
                 </Link>
@@ -75,9 +75,9 @@ export function Header() {
           </nav>
         </div>
 
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
           <Button text={t("buttonContribute")} link="#" />
-        </div>
+        </div> */}
 
         <div className="hidden lg:block">
           <ToggleButton />

@@ -1,16 +1,15 @@
 {
     "translation":{
-        "item1": "Início",
-        "item2": "Histórias",
+        "item2": "Historias",
         "item3": "Sobre",
         "item4": "Personagens",
         "buttonContribute": "Contribua",
 
-        "tituloPrincipal": "Desperte o herói em você!",
+        "tituloPrincipal": "Desperte o heroi em voce!",
 
         "buttonReadStories": "Ler Histórias",
 
-        "titlePositives": "Benefícios da leitura",
+        "titlePositives": "Beneficios da leitura",
         "headerCardPosit1": "Leitura",
         "textCardPosit1": "A leitura permite aprender sobre uma ampla variedade de assuntos, explorar diferentes culturas, adquirir informações valiosas e expandir o conhecimento geral.",
         "headerCardPosit2": "Vocabulário",

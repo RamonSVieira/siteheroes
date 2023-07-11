@@ -1,9 +1,14 @@
 @tailwind base;
 @tailwind components;
+@font-face{
+  font-family: 'Badaboom';
+  src: url('../assets/fonts/badaboom.TTF');
+  /* Adicione outros formatos de fonte (eot, woff, woff2) se disponíveis */
+}
 @tailwind utilities;
 
 body {
-  background-color: #c5e3e7;
+  background-color: #F3DF0C;
 }
 
 .dark body {

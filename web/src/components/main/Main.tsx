@@ -30,7 +30,7 @@ export function Main() {
   return (
     <div className="bg-header dark:bg-zinc-800 relative">
       <div className="container py-6 px-6 max-w-5xl mx-auto flex items-center flex-col gap-10 text-primary-text dark:text-white">
-        <h1 className="font-black text-4xl md:text-5xl text-center">
+        <h1 className="text-6xl md:text-7xl text-center font-badaboom text-primary-title drop-shadow-title1">
           {t("tituloPrincipal")}
         </h1>
 
