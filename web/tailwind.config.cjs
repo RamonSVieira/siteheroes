@@ -16,9 +16,9 @@ module.exports = {
         "primary-title": "#F3DF0C",
         "secondary-title": "#3B2C5A",
         "primary-text": "#131D1F",
-        theader1: "#B1181C",
-        theader2: "#DAC80B",
-        theader3: "#438AB2",
+        theader1: "#DAC80B",
+        theader2: "#C25C35",
+        theader3: "#B1181C",
 
       },
       fontFamily: {

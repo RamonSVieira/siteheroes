@@ -62,77 +62,77 @@ export function Main() {
             <img
               src={homiranha}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={batman}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={black_panter}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={cap_ame}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={deadpool}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={flash}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={green_arrow}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={green_lantern}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={iron_man}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={thor}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
           <SwiperSlide className="max-w-sm">
             <img
               src={wonder_woman}
               alt="slide_image"
-              className="cursor-pointer transition duration-300 brightness-75 hover:brightness-100"
+              className="cursor-pointer transition duration-300 hover:brightness-100"
             />
           </SwiperSlide>
 

@@ -50,7 +50,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="text-theader1 drop-shadow-header relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader1 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="font-thin text-white hover:text-theader1 relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader1 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item2")}
                 </Link>
@@ -58,7 +58,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="text-theader2 drop-shadow-header relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader2 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="font-thin text-white hover:text-theader2 relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-theader2 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item3")}
                 </Link>
@@ -66,7 +66,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="text-theader3 drop-shadow-header relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader3 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="font-thin text-white hover:text-theader3 relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-theader3 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item4")}
                 </Link>
