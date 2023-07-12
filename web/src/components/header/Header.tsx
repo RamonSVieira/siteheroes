@@ -58,7 +58,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="font-thin text-white hover:text-theader2 relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-theader2 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="font-thin text-white hover:text-[#073344] relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-[#073344] dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item3")}
                 </Link>
