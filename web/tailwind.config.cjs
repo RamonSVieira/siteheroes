@@ -20,6 +20,13 @@ module.exports = {
         theader2: "#C25C35",
         theader3: "#B1181C",
 
+        //transitions
+
+        color1: "rgba(119, 129, 221, 100)",
+        color2: "rgba(119, 129, 221, 70)",
+        color3: "rgba(119, 129, 221, 20)",
+        color4: "rgba(119, 129, 221, 0)",    
+
       },
       fontFamily: {
         comic: ["Roboto", "cursive"],

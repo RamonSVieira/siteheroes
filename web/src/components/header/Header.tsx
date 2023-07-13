@@ -50,7 +50,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="font-thin text-white hover:text-theader1 relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader1 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="font-thin text-white hover:text-theader1 relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader1 dark:after:bg-theader1 after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item2")}
                 </Link>
@@ -58,7 +58,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="font-thin text-white hover:text-[#073344] relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-[#073344] dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="font-thin text-white hover:text-[#073344] dark:hover:text-[#96CAE8] relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-[#073344] dark:after:bg-[#5AB8ED] after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item3")}
                 </Link>
@@ -66,7 +66,7 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="font-thin text-white hover:text-theader3 relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-theader3 dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="font-thin text-white hover:text-theader3 relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-theader3 dark:after:bg-theader3 after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item4")}
                 </Link>
