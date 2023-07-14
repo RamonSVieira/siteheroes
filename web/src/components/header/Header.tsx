@@ -49,7 +49,7 @@ export function Header() {
             <ul className="flex gap-9 text-3xl font-semibold font-badaboom tracking-wider">
               <li>
                 <Link
-                  to="#"
+                  to="/stories"
                   className="font-thin text-white hover:text-theader1 relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-theader1 dark:after:bg-theader1 after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item2")}

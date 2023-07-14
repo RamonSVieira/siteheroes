@@ -8,6 +8,7 @@ import wonder from "../assets/iconHeroes/wonder.png";
 import ironman from "../assets/iconHeroes/ironman.png";
 import wanda from "../assets/iconHeroes/wanda.png";
 import arrow from "../assets/iconHeroes/arrow.png";
+import spider from "../assets/iconHeroes/spider.png";
 
 import { useTranslation } from "react-i18next";
 
@@ -80,6 +81,12 @@ export function Persons() {
           urlImage={arrow}
           name=""
           className="bg-[#ECEFC8] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#5C8C54]"
+        />
+
+        <IconHeroe
+          urlImage={spider}
+          name=""
+          className="bg-[#416984] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#B5000F]"
         />
       </div>
     </div>
