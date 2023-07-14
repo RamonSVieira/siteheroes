@@ -9,6 +9,7 @@ import green_lantern from "../../assets/green-lantern.png";
 import iron_man from "../../assets/iron-man.png";
 import thor from "../../assets/Thor.png";
 import wonder_woman from "../../assets/wonder-woman.png";
+
 import { useTranslation } from "react-i18next";
 
 import { EffectCoverflow, Navigation, Pagination, Autoplay } from "swiper";
