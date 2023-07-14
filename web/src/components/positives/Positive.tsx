@@ -12,7 +12,7 @@ export function Positive() {
   const { t } = useTranslation();
 
   return (
-    <div className="mt-32 md:mt-36 lg:mt-52 2xl:mt-64 mb-20 py-6 px-6 max-w-5xl mx-auto ">
+    <div className="mt-32 md:mt-36 lg:mt-52 2xl:mt-64 mb-20 py-6 px-6 max-w-5xl mx-auto text-white">
       <h3 className="text-6xl md:text-7xl text-center font-badaboom text-secondary-title drop-shadow-title2 tracking-wider dark:text-primary-title dark:drop-shadow-title1 select-none">
         {t("titlePositives")}
       </h3>

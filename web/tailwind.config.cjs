@@ -11,7 +11,7 @@ module.exports = {
       },
       colors: {
         logo: "#F3DF0C",
-        primary: "#7781DD",
+        primary: "#3B2C5A",
         secondary: "#27272a",
         "primary-title": "#F3DF0C",
         "secondary-title": "#3B2C5A",
@@ -22,7 +22,7 @@ module.exports = {
 
         //transitions
 
-        color1: "rgba(119, 129, 221, 100)",
+        color1: "3B2C5A",
         color2: "rgba(119, 129, 221, 70)",
         color3: "rgba(119, 129, 221, 20)",
         color4: "rgba(119, 129, 221, 0)",    
@@ -33,7 +33,7 @@ module.exports = {
         badaboom: ["Badaboom"],
       },
       backgroundColor: {
-        header: "#7781DD",
+        header: "#3B2C5A",
       },
       backgroundImage: {
         wave: "url('./wave.svg')",
