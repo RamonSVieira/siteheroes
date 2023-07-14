@@ -4,12 +4,12 @@ export function Footer() {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-primary  dark:bg-zinc-800 relative mt-[125px]">
-      <div className="py-10 text-white px-6 max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-primary-text dark:text-white">
+    <div className="bg-header dark:bg-zinc-800 relative mt-[300px]">
+      <div className="py-10 px-6 max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-primary-text dark:text-white">
         <div className="basis-1/3 flex flex-col gap-5">
           <a href="">
             <svg
-              className="fill-primary dark:fill-white"
+              className="fill-primary-text dark:fill-white"
               width="80"
               height="80"
               viewBox="0 0 80 80"
@@ -23,7 +23,7 @@ export function Footer() {
               />
             </svg>
           </a>
-          <p className="text-white">"{t("footerText")}"</p>
+          <p>"{t("footerText")}"</p>
           <p>Julien Green</p>
         </div>
 

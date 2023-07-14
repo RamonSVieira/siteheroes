@@ -12,12 +12,12 @@ export function Positive() {
   const { t } = useTranslation();
 
   return (
-    <div className="mt-32 bg-theader2 md:mt-36 lg:mt-52 2xl:mt-64 mb-20 py-6 px-6 max-w-5xl mx-auto ">
+    <div className="mt-32 md:mt-36 lg:mt-52 2xl:mt-64 mb-20 py-6 px-6 max-w-5xl mx-auto ">
       <h3 className="text-6xl md:text-7xl text-center font-badaboom text-secondary-title drop-shadow-title2 tracking-wider dark:text-primary-title dark:drop-shadow-title1 select-none">
         {t("titlePositives")}
       </h3>
 
-      <div className="flex bg-theader2 flex-col md:flex-row items-center md:items-stretch justify-around flex-wrap gap-6 m-auto">
+      <div className="flex flex-col md:flex-row items-center md:items-stretch justify-around flex-wrap gap-6 m-auto">
         <Card
           className="absolute -top-36"
           urlImg={meninaVoando}
