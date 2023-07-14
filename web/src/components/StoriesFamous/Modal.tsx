@@ -2,7 +2,7 @@ import heroi from "../../assets/heroHQ.png";
 
 interface ModalProps {
   isOpen: boolean;
-  setModalOpen: boolean;
+  setModalOpen: () => void;
 }
 
 export function Modal(props: ModalProps) {
