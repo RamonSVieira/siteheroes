@@ -27,7 +27,8 @@ module.exports = {
         color1: "rgba(119, 129, 221, 100)",
         color2: "rgba(119, 129, 221, 70)",
         color3: "rgba(119, 129, 221, 20)",
-        color4: "rgba(119, 129, 221, 0)",    
+        color4: "rgba(119, 129, 221, 0)",  
+        purple: "#3B2C5A"  
 
       },
       fontFamily: {

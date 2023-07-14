@@ -11,8 +11,8 @@ export function StoriesFamous() {
 
   return (
     <div className="relative">
-      <div className="bg-[#9CD4DA] my-24 rounded-3xl dark:bg-zinc-800 py-6 px-6 max-w-5xl mx-auto flex items-center flex-col gap-10 text-primary-text dark:text-white">
-        <h2 className="text-4xl font-bold">{t("mostFamous")}</h2>
+      <div className="my-24 rounded-3xl text-6xl font-badaboom text-theader2 drop-shadow-title1 dark:bg-zinc-800 py-6 px-6 max-w-5xl mx-auto flex items-center flex-col gap-10 dark:text-white">
+        <h2 className="text-6xl">{t("historias")}</h2>
 
         <div className="w-full flex gap-6">
           <div className="min-w-[72px] w-full h-[600px] bg-black rounded-[37px] bg-stark bg-cover bg-center"></div>
@@ -22,9 +22,9 @@ export function StoriesFamous() {
         </div>
       </div>
 
-      <div className="bg-[#9CD4DA] dark:bg-zinc-700">
+      <div className="bg-theader2 dark:bg-zinc-700">
         <div className="max-w-5xl mx-auto py-20 px-6">
-          <div className="text-center font-extrabold text-4xl mb-12">
+          <div className="text-center drop-shadow-title2 font-badaboom text-6xl text-purple mb-12">
             {t("mostFamous")}
           </div>
           <div className="flex flex-wrap justify-center gap-2">
