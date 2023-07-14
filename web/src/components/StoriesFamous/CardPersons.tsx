@@ -1,4 +1,6 @@
-interface CardPersonsProps {
+import { HTMLAttributes } from "react";
+
+interface CardPersonsProps extends HTMLAttributes<HTMLDivElement> {
   urlCard: string;
   urlLogo: string;
   categoria1: string;
@@ -9,13 +11,13 @@ interface CardPersonsProps {
   villain: boolean;
 }
 
-export default function CardPersons(props: CardPersonsProps) {
+export default function CardPersons({ ...props }: CardPersonsProps) {
   return (
-    <a
+    <div
       className={`w-80 grid grid-cols-3 grid-rows-[1fr_auto] ${
         props.villain ? "bg-[#6A3889]" : "bg-[#438AB2]"
-      }  rounded-2xl overflow-hidden text-white font-semibold`}
-      href=""
+      }  rounded-2xl overflow-hidden text-white font-semibold cursor-pointer`}
+      {...props}
     >
       <div className="col-span-2">
         <img
@@ -47,12 +49,11 @@ export default function CardPersons(props: CardPersonsProps) {
         >
           {props.categoria3}
         </span>
-        
       </div>
       <div className="col-span-3 p-2 border-t-4 border-white">
         <h3 className="text-2xl">{props.title}</h3>
         <p className="text-xl">{props.subtitle}</p>
       </div>
-    </a>
+    </div>
   );
 }

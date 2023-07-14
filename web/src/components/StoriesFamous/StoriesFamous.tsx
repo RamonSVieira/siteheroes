@@ -15,9 +15,13 @@ import loki from "../../assets/hq/loki.png";
 
 import marvelLogo from "../../assets/marvel.png";
 import { useTranslation } from "react-i18next";
+import { Modal } from "./Modal";
+import { useState } from "react";
 
 export function StoriesFamous() {
   const { t } = useTranslation();
+
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div className="relative">
@@ -53,6 +57,8 @@ export function StoriesFamous() {
         </div>
       </div>
 
+      <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)} />
+
       <div className="">
         <div className="max-w-5xl mx-auto pt-80 px-6">
           <div className="text-6xl md:text-7xl text-center mb-12 font-badaboom text-secondary-title drop-shadow-title2 tracking-wider dark:text-primary-title dark:drop-shadow-title1">
@@ -68,6 +74,7 @@ export function StoriesFamous() {
               title={t("spiderMan")}
               subtitle={t("textSpiderMan")}
               villain={false}
+              onClick={() => setOpenModal(true)}
             />
             <CardPersons
               urlCard={coringa}
@@ -78,6 +85,7 @@ export function StoriesFamous() {
               title={t("joker")}
               subtitle={t("textJoker")}
               villain={true}
+              onClick={() => console.log("Oi")}
             />
             <CardPersons
               urlCard={stark}
@@ -88,6 +96,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -99,6 +108,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={true}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -110,6 +120,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -121,6 +132,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -132,6 +144,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -143,6 +156,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={true}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -154,6 +168,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -165,6 +180,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={true}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -176,6 +192,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
+              onClick={() => console.log("Oi")}
             />
 
             <CardPersons
@@ -187,6 +204,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={true}
+              onClick={() => console.log("Oi")}
             />
           </div>
         </div>
