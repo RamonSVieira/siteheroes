@@ -3,7 +3,6 @@ import { Header } from "./components/header/Header";
 
 import { Home } from "./pages/Home";
 import { Stories } from "./pages/Stories";
-import { Persons } from "./pages/Persons";
 
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
@@ -19,7 +18,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/stories" element={<Stories />} />
-            <Route path="/persons" element={<Persons />} />
           </Routes>
           <Footer />
         </div>
