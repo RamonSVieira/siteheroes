@@ -26,7 +26,7 @@ export function Header() {
         <div className="">
           <Link to="/">
             <svg
-              className="fill-primary-text dark:fill-white w-24 h-24"
+              className="fill-logo dark:fill-white w-24 h-24"
               viewBox="0 0 80 80"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,17 +40,25 @@ export function Header() {
           </Link>
         </div>
 
-        <div className="fixed z-50 bottom-0 right-0">
+        {/* <div className="fixed z-50 bottom-0 right-0">
           <ChangeLanguage></ChangeLanguage>
-        </div>
+        </div> */}
 
         <div className="hidden lg:block">
           <nav>
-            <ul className="flex gap-9 text-2xl font-semibold">
+            <ul className="flex gap-9 text-2xl font-badaboom ">
               <li>
                 <Link
                   to="#"
-                  className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="relative text-theader3 drop-shadow-header hover:text-thover3 text-text-shadow after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                >
+                  {t("personagens")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="relative text-theader2 drop-shadow-header hover:text-thover2 after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item2")}
                 </Link>
@@ -58,26 +66,18 @@ export function Header() {
               <li>
                 <Link
                   to="#"
-                  className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
+                  className="font-thin text-white text-theader4 hover:text-thover4 drop-shadow-header dark:hover:text-[#96CAE8] relative after:content-[''] after:block after:h-[2px] after:w-0  after:bg-[#073344] dark:after:bg-[#5AB8ED] after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
                 >
                   {t("item3")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="#"
-                  className="relative after:content-[''] after:block after:h-[2px] after:w-0 after:bg-primary-text dark:after:bg-white after:absolute after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
-                >
-                  {t("item4")}
                 </Link>
               </li>
             </ul>
           </nav>
         </div>
 
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
           <Button text={t("buttonContribute")} link="#" />
-        </div>
+        </div> */}
 
         <div className="hidden lg:block">
           <ToggleButton />

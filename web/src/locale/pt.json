@@ -1,17 +1,15 @@
 {
     "translation":{
-        "item1": "Início",
-        "item2": "Histórias",
+        "item2": "Historias",
         "item3": "Sobre",
         "item4": "Personagens",
         "buttonContribute": "Contribua",
 
-        "tituloPrincipal": "Aventuras Incríveis!",
-        "textoMain": "Bem-vindo ao nosso universo de super-heróis! Explore as páginas deste site e mergulhe em emocionantes aventuras em quadrinhos. Você encontrará personagens icônicos e um mundo repleto de heróis corajosos prontos para proteger a humanidade contra o mal.",
+        "tituloPrincipal": "Desperte o heroi em voce!",
 
         "buttonReadStories": "Ler Histórias",
 
-        "titlePositives": "Benefícios da leitura",
+        "titlePositives": "Beneficios da leitura",
         "headerCardPosit1": "Leitura",
         "textCardPosit1": "A leitura permite aprender sobre uma ampla variedade de assuntos, explorar diferentes culturas, adquirir informações valiosas e expandir o conhecimento geral.",
         "headerCardPosit2": "Vocabulário",

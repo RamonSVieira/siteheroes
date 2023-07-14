@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
 
 export function Footer() {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
 
   return (
-    <div className="bg-header dark:bg-zinc-800">
+    <div className="bg-header dark:bg-zinc-800 relative mt-[300px]">
       <div className="py-10 px-6 max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-primary-text dark:text-white">
         <div className="basis-1/3 flex flex-col gap-5">
           <a href="">
@@ -23,9 +23,7 @@ export function Footer() {
               />
             </svg>
           </a>
-          <p>
-            "{t("footerText")}"
-          </p>
+          <p>"{t("footerText")}"</p>
           <p>Julien Green</p>
         </div>
 
@@ -42,7 +40,9 @@ export function Footer() {
           </ul>
         </div>
         <div className="basis-1/3 flex flex-col gap-5">
-          <h3 className="text-3xl font-extrabold lg:h-20">{t("socialMedia")}</h3>
+          <h3 className="text-3xl font-extrabold lg:h-20">
+            {t("socialMedia")}
+          </h3>
           <ul className="flex gap-4 fill-primary-text dark:fill-white">
             <li>
               <a href="http://" className="inline-block p-1" target="_blank">
@@ -116,6 +116,21 @@ export function Footer() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="absolute w-full h-52 -top-[200px] z-99 rotate-180">
+        <svg
+          className="object-cover w-full"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            className=" fill-primary dark:fill-secondary"
+            fill=""
+            fill-opacity="1"
+            d="M0,256L34.3,224C68.6,192,137,128,206,117.3C274.3,107,343,149,411,149.3C480,149,549,107,617,96C685.7,85,754,107,823,128C891.4,149,960,171,1029,165.3C1097.1,160,1166,128,1234,117.3C1302.9,107,1371,117,1406,122.7L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+          ></path>
+        </svg>
       </div>
     </div>
   );
