@@ -26,67 +26,67 @@ export function Persons() {
         <IconHeroe
           urlImage={superman}
           name=""
-          className="bg-[#51AAFF] w-[200px] h-[200px] rounded-full relative hover:border-4 border-red-800"
+          className="bg-[#51AAFF] w-[200px] h-[200px] rounded-full relative hover:border-4 border-red-800 dark:border-white"
         />
 
         <IconHeroe
           urlImage={batman}
           name=""
-          className="bg-[#32322E] w-[200px] h-[200px] rounded-full relative hover:border-4 border-black"
+          className="bg-[#32322E] w-[200px] h-[200px] rounded-full relative hover:border-4 border-black dark:border-white"
         />
 
         <IconHeroe
           urlImage={coringa}
           name=""
-          className="bg-[#9C76F0] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#0C380B]"
+          className="bg-[#9C76F0] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#0C380B] dark:border-white"
         />
 
         <IconHeroe
           urlImage={cap}
           name=""
-          className="bg-[#7B9FCA] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#6A1A18]"
+          className="bg-[#7B9FCA] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#6A1A18] dark:border-white"
         />
 
         <IconHeroe
           urlImage={flash}
           name=""
-          className="bg-[#EBAF50] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#E12C28]"
+          className="bg-[#EBAF50] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#E12C28] dark:border-white"
         />
 
         <IconHeroe
           urlImage={panter}
           name=""
-          className="bg-[#6777A9] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#09090B]"
+          className="bg-[#6777A9] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#09090B] dark:border-white"
         />
 
         <IconHeroe
           urlImage={wonder}
           name=""
-          className="bg-[#851824] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#013D6C]"
+          className="bg-[#851824] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#013D6C] dark:border-white"
         />
 
         <IconHeroe
           urlImage={ironman}
           name=""
-          className="bg-[#FFE98D] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#762220]"
+          className="bg-[#FFE98D] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#762220] dark:border-white"
         />
 
         <IconHeroe
           urlImage={wanda}
           name=""
-          className="bg-[#D98D9C] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#E43325]"
+          className="bg-[#D98D9C] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#E43325] dark:border-white"
         />
 
         <IconHeroe
           urlImage={arrow}
           name=""
-          className="bg-[#ECEFC8] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#5C8C54]"
+          className="bg-[#ECEFC8] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#5C8C54] dark:border-white"
         />
 
         <IconHeroe
           urlImage={spider}
           name=""
-          className="bg-[#416984] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#B5000F]"
+          className="bg-[#416984] w-[200px] h-[200px] rounded-full relative hover:border-4 border-[#B5000F] dark:border-white"
         />
       </div>
     </div>
