@@ -17,7 +17,7 @@ export function Modal(props: ModalProps) {
           <div className="flex items-center gap-10">
             <img src={heroi} alt="" />
             <div>
-              <h4 className="text-3xl mb-5">Homem Aranha</h4>
+              <h4 className="text-3xl mb-5">História como exemplo</h4>
               <p className="text-xl">
                 Lorem ipsum dolor sit. Lorem ipsum dolor sit.
               </p>

@@ -26,15 +26,24 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Modal } from "../StoriesFamous/Modal";
 
 export function Main() {
   const { t } = useTranslation();
+
+  const [openModal, setOpenModal] = useState(false);
   return (
     <div className="bg-header dark:bg-zinc-800 relative">
       <div className="container py-6 px-6 max-w-7xl mx-auto flex items-center flex-col gap-10 text-primary-text dark:text-white">
         <h1 className="text-6xl md:text-7xl text-center font-badaboom text-primary-title drop-shadow-title1 tracking-wider">
           {t("tituloPrincipal")}
         </h1>
+
+        <Modal
+          isOpen={openModal}
+          setModalOpen={() => setOpenModal(!openModal)}
+        />
 
         <div className="relative max-w-7xl px-16">
           <Swiper
@@ -65,103 +74,103 @@ export function Main() {
             <div className="h-full w-20 absolute right-0 top-0 z-30 bg-gradient-to-l from-color1 to-color4 dark:from-zinc-800"></div>
 
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={homiranha}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={batman}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={black_panter}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={cap_ame}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={deadpool}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={flash}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={green_arrow}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={green_lantern}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={iron_man}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={thor}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
             <SwiperSlide className="max-w-sm select-none">
-              <Link to="/stories">
+              <div onClick={() => setOpenModal(true)}>
                 <img
                   src={wonder_woman}
                   alt="slide_image"
                   className="cursor-pointer transition duration-300 hover:brightness-100"
                 />
-              </Link>
+              </div>
             </SwiperSlide>
 
             <div className="slider-controler">

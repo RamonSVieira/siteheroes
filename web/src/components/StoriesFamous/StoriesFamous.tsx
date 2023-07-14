@@ -85,7 +85,7 @@ export function StoriesFamous() {
               title={t("joker")}
               subtitle={t("textJoker")}
               villain={true}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
             <CardPersons
               urlCard={stark}
@@ -96,7 +96,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -108,7 +108,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={true}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -120,7 +120,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -132,7 +132,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -144,7 +144,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -156,7 +156,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={true}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -168,7 +168,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -180,7 +180,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={true}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -192,7 +192,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={false}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
 
             <CardPersons
@@ -204,7 +204,7 @@ export function StoriesFamous() {
               title={t("ironMan")}
               subtitle={t("textIronMan")}
               villain={true}
-              onClick={() => console.log("Oi")}
+              onClick={() => setOpenModal(true)}
             />
           </div>
         </div>
