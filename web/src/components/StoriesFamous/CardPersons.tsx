@@ -27,7 +27,6 @@ export default function CardPersons({ ...props }: CardPersonsProps) {
         />
       </div>
       <div className="flex flex-col items-stretch gap-3 pt-2 border-l-4 border-white">
-        <img src={props.urlLogo} alt="" />
         <span
           className={`text-center ${
             props.villain ? "bg-[#602186]" : "bg-[#296486]"

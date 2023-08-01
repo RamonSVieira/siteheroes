@@ -5,11 +5,11 @@ export function Footer() {
 
   return (
     <div className="bg-header dark:bg-zinc-800 relative mt-[300px]">
-      <div className="py-10 px-6 max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-primary-text text-[#F3DF0C]">
+      <div className="py-10 px-6 max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-white text-lg">
         <div className="basis-1/3 flex flex-col gap-5">
           <a href="">
             <svg
-              className="fill-[#F3DF0C]"
+              className="fill-logo dark:fill-white w-24 h-24"
               width="80"
               height="80"
               viewBox="0 0 80 80"
@@ -42,7 +42,7 @@ export function Footer() {
             <li>
               <a href="http://" className="inline-block p-1" target="_blank">
                 <svg
-                  className="fill-[#F3DF0C]"
+                  className="fill-white"
                   width="37"
                   height="36"
                   viewBox="0 0 37 36"
@@ -56,7 +56,7 @@ export function Footer() {
             <li>
               <a href="http://" className="inline-block p-1" target="_blank">
                 <svg
-                  className="fill-[#F3DF0C]"
+                  className="fill-white"
                   width="37"
                   height="36"
                   viewBox="0 0 37 36"
@@ -70,7 +70,7 @@ export function Footer() {
             <li>
               <a href="http://" className="inline-block p-1" target="_blank">
                 <svg
-                  className="fill-[#F3DF0C]"
+                  className="fill-white"
                   width="37"
                   height="36"
                   viewBox="0 0 37 36"
@@ -84,7 +84,7 @@ export function Footer() {
             <li>
               <a href="http://" className="inline-block p-1" target="_blank">
                 <svg
-                  className="fill-[#F3DF0C]"
+                  className="fill-white"
                   width="37"
                   height="36"
                   viewBox="0 0 37 36"

@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #F3DF0C;
+  background-color: #F2E76B;
 }
 
 .dark body {
@@ -29,4 +29,8 @@ body {
 
 .slider-arrow::after {
   content: "";
+}
+
+.swiper-pagination-bullet{
+  background: white;
 }

@@ -23,8 +23,8 @@ module.exports = {
         //transitions
 
         color1: "3B2C5A",
-        color2: "rgba(119, 129, 221, 70)",
-        color3: "rgba(119, 129, 221, 20)",
+        color2: "rgba(59, 44, 90, 100)",
+        color3: "rgba(59, 44, 90, 0)",
         color4: "rgba(119, 129, 221, 0)",    
 
       },
